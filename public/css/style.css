@@ -447,3 +447,60 @@ h1 {
     min-height: 100vh;
     gap: 2rem;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+    max-width: 100vw;
+    height: auto;
+  }
+  .bookshelf {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  .book {
+    width: 90vw;
+    max-width: 340px;
+    height: 180px;
+    min-height: 120px;
+    margin: 0 auto;
+  }
+  .card-img {
+    height: 100%;
+    width: 100%;
+  }
+  .card-title {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+  .page-content,
+  .notfound-flex {
+    padding: 0.5rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  .mirror-block {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .back-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .notfound-card {
+    width: 90vw;
+    max-width: 340px;
+    height: 200px;
+  }
+  .notfound-card-img {
+    width: 95%;
+    height: 95%;
+  }
+  .notfound-title {
+    font-size: 1.1rem;
+    padding: 0.2rem;
+  }
+}
