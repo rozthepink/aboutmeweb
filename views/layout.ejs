@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof title !== 'undefined' ? title : 'My Mirror' %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <%- style %>
+</head>
+<body>
+    <div class="page-content">
+        <% if (typeof showBackButton !== 'undefined' && showBackButton) { %>
+            <a href="/" class="back-button">← Back</a>
+        <% } %>
+        <%- body %>
+    </div>
+    <script src="/js/main.js"></script>
+    <%- script %>
+</body>
+</html> 
