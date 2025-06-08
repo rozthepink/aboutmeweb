@@ -32,7 +32,7 @@ app.get('/about', (req, res) => {
     });
 });
 
-app.get('/hobbies', (req, res) => {
+/* app.get('/hobbies', (req, res) => {
     res.render('hobbies', { 
         title: 'My Hobbies',
         showBackButton: true 
@@ -58,7 +58,7 @@ app.get('/misc', (req, res) => {
         title: 'Miscellaneous',
         showBackButton: true 
     });
-});
+}); */
 
 // Catch-all 404 route
 app.use((req, res) => {
